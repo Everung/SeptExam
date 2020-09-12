@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: provider
+  cloud:
+    nacos:
+      config:
+        prefix: provider
+

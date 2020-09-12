@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        prefix: consumer
+
+  application:
+    name: consumer
