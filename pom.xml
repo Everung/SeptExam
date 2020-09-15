@@ -13,6 +13,7 @@
         <module>nacos-config</module>
         <module>consumer</module>
         <module>zuul-gateway</module>
+        <module>starter</module>
     </modules>
 
     <parent>
@@ -64,6 +65,11 @@
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.70</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
 
     </dependencies>

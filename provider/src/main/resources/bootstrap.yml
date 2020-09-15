@@ -5,4 +5,5 @@ spring:
     nacos:
       config:
         prefix: provider
-
+server:
+  port: 8082

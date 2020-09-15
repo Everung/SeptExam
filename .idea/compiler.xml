@@ -2,11 +2,13 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="zuul-gateway" />
+        <module name="starter" />
         <module name="provider" />
         <module name="nacos-config" />
         <module name="consumer" />
@@ -18,6 +20,7 @@
       <module name="consumer" options="-parameters" />
       <module name="nacos-config" options="-parameters" />
       <module name="provider" options="-parameters" />
+      <module name="starter" options="-parameters" />
       <module name="zuul-gateway" options="-parameters" />
     </option>
   </component>
