@@ -53,7 +53,7 @@ public class LinkmanServiceImpl extends ServiceImpl<LinkmanMapper,Linkman> imple
         });
         logger.info("queryLinkmanList  arrayList :{}",arrayList.toArray());
 
-        PageResponse<LinkmanVO> pageResponse=new PageResponse<>();
+        PageResponse pageResponse=new PageResponse<>();
         pageResponse.setPageNo(pageInfo.getCurrent());
         pageResponse.setPageSize(pageInfo.getSize());
         pageResponse.setTotal(page.getTotal());

@@ -26,5 +26,5 @@ public class PageResponse<T> {
     /**
      * 数据
      */
-    private List<T> dataList;
+    private T dataList;
 }
